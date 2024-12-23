@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Платформа для волонтеров</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./images/logo.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <h1>Платформа для волонтеров</h1>
+        <p>Находите волонтерские возможности и вносите изменения!</p>
+        <h1>Ключ к сердцу.рф</h1>
+    </header>
+
+    <nav>
+      <ul class="navigation">
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#events">Мероприятия</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#news">Новости</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about" class="about">
+        <h1>О нашей платформе</h1>
+        <div class="about-content">
+          <p>
+            <strong
+              >Наша платформа для волонтеров – это больше, чем просто
+              посредник!</strong
+            >
+            <br />
+            <br />
+            За все время существования нашего проекта, мы смогли объединить
+            тысячи людей, которые желают сделать мир лучше. Мы организовали
+            более 2000 добрых дел, среди которых оказание помощи нуждающимся,
+            помощь детским домам и другим социальным учреждениям. Наши волонтеры
+            накормили более 1000 бездомных людей, приняли участие в
+            восстановлении парков, уборке городов, а также провели множество
+            мероприятий для поддержки пожилых людей и семей в трудных жизненных
+            ситуациях. Мы верим, что каждый человек может внести вклад в
+            развитие общества, и наша платформа помогает найти именно те
+            волонтерские возможности, которые наиболее соответствуют вашим
+            интересам и возможностям. С нами вы можете сделать шаг к более
+            светлому и доброму будущему!
+          </p>
+          <img src="./images/about.jpg" alt="" style="width: 600px" />
+        </div>
+      </section>
+
+      <section id="events" class="events">
+        <h1>Предстоящие мероприятия</h1>
+        <swiper-container
+          class="events__swiper"
+          pagination="true"
+          pagination-clickable="true"
+          slides-per-view="auto"
+          space-between="48"
+        >
+          <swiper-slide class="events__swiper-slide">
+            <div class="event">
+              <div>
+                <h2>Уборка в парке</h2>
+                <p>25 декабря, Городской парк</p>
+                <p>
+                  Приглашаем вас присоединиться к уборке в городском парке.
+                  Вместе мы сделаем его чище и уютнее для всех жителей. Не
+                  забудьте перчатки и хорошее настроение!
+                </p>
+              </div>
+              <img src="./images/park.avif" alt="" width="300px" />
+            </div>
+          </swiper-slide>
+          <swiper-slide class="events__swiper-slide">
+            <div class="event">
+              <div>
+                <h2>Сбор продуктов</h2>
+                <p>28 декабря</p>
+                <p>
+                  Примите участие в сборе продуктов для нуждающихся. В этот день
+                  вы сможете внести свой вклад, помогая собрать продовольствие
+                  для тех, кто в нем особенно нуждается.
+                </p>
+              </div>
+              <img src="./images/groceries.jpg" alt="" width="300px" />
+            </div>
+          </swiper-slide>
+          <swiper-slide class="events__swiper-slide">
+            <div class="event">
+              <div>
+                <h2>Спортивные мероприятия</h2>
+                <p>9 января, Спортивная площадка</p>
+                <p>
+                  Приглашаем на спортивные мероприятия, где вы сможете не только
+                  поддержать здоровый образ жизни, но и помочь организовать
+                  активный досуг для детей и молодежи.
+                </p>
+              </div>
+              <img src="./images/sport.svg" alt="" width="300px" />
+            </div>
+          </swiper-slide>
+          <swiper-slide class="events__swiper-slide">
+            <div class="event">
+              <div>
+                <h2>Помощь в домах престарелых</h2>
+                <p>10 января, Дом престарелых</p>
+                <p>
+                  Станьте частью команды, которая приносит радость пожилым
+                  людям. В этот день мы посетим дом престарелых, чтобы оказать
+                  внимание и поддержку тем, кто нуждается в заботе.
+                </p>
+              </div>
+              <img src="./images/old.png" alt="" width="300px" />
+            </div>
+          </swiper-slide>
+          <swiper-slide class="events__swiper-slide">
+            <div class="event">
+              <div>
+                <h2>Помощь в приютах для животных</h2>
+                <p>11 января, Приют для животных</p>
+                <p>
+                  Станьте частью команды, которая приносит радость пожилым
+                  людям. В этот день мы посетим дом престарелых, чтобы оказать
+                  внимание и поддержку тем, кто нуждается в заботе.
+                </p>
+              </div>
+              <img src="./images/animals.svg" alt="" width="300px" />
+            </div>
+          </swiper-slide>
+        </swiper-container>
+        <p>Присоединяйтесь, чтобы творить добро!</p>
+        <button id="registerBtn" class="register-btn">
+          Зарегистрироваться
+        </button>
+      </section>
+
+      <div id="registerModal" class="modal">
+        <div class="modal-content">
+          <button class="close-btn">
+            <img src="./images/filled-cancel.png" alt="" width="40px" />
+          </button>
+          <h2>Зарегистрироваться на мероприятие</h2>
+
+          <form id="registerForm">
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              required
+              placeholder="Имя"
+            />
+
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              required
+              placeholder="Фамилия"
+            />
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="E-mail"
+            />
+
+            <label for="event">Выберите мероприятие:</label>
+            <select id="event" name="event">
+              <option value="Уборка в парке">Уборка в парке</option>
+              <option value="Сбор продуктов">Сбор продуктов</option>
+              <option value="Спортивные мероприятия">
+                Спортивные мероприятия
+              </option>
+              <option value="Помощь в домах престарелых">
+                Помощь в домах престарелых
+              </option>
+              <option value="Помощь в приютах для животных">
+                Помощь в приютах для животных
+              </option>
+            </select>
+
+            <input type="submit" value="Отправить" class="register-btn" />
+          </form>
+        </div>
+      </div>
+
+      <div id="successModal" class="modal">
+        <div class="modal-content">
+          <h2>Вы успешно зарегистрировались на мероприятие!</h2>
+          <button id="okBtn" class="ok-btn">
+            <img src="./images/ok.png" alt="" width="40px" />
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="icon">
+            <img src="./images/---.svg" alt="catalog icon" />
+          </div>
+          <h3>Крупнейший каталог</h3>
+          <p>
+            Информация о тысячах волонтерских организаций, добровольцах,
+            мероприятиях, проектах и знаниях со всей России
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/cup.svg" alt="contest icon" />
+          </div>
+          <h3>Конкурс проектов</h3>
+          <p>
+            Станьте экспертом, участвуйте в главном конкурсе и получите грант на
+            реализацию своего проекта
+          </p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <img src="./images/100.svg" alt="rating icon" />
+          </div>
+          <h3>Система оценки</h3>
+          <p>
+            Качество работы добровольцев и организаторов гарантируется рейтингом
+            и верификацией
+          </p>
+        </div>
+      </div>
+
+      <section id="reviews" class="review-list">
+        <h1>Отзывы волонтеров</h1>
+        <div class="review">
+          <p>
+            «Участвую в мероприятиях этой платформы уже второй год. Это
+            потрясающая возможность помочь людям и встретить единомышленников!»
+            – Анна
+          </p>
+        </div>
+        <div class="review">
+          <p>
+            «Платформа помогает находить важные и интересные проекты, участвуя в
+            которых, можно ощутить себя частью чего-то большего.» – Иван
+          </p>
+        </div>
+      </section>
+
+      <section class="photos">
+        <h1>Фотографии наших волонтеров</h1>
+        <swiper-container
+          class="photos__swiper"
+          pagination="true"
+          pagination-clickable="true"
+          slides-per-view="auto"
+          space-between="16"
+        >
+          <swiper-slide class="photos__swiper-slide">
+            <img src="./images/photo1.jpg" alt="" width="600px"
+          /></swiper-slide>
+          <swiper-slide class="photos__swiper-slide">
+            <img src="./images/photo2.jpg" alt="" width="600px"
+          /></swiper-slide>
+          <swiper-slide class="photos__swiper-slide">
+            <img src="./images/photo3.jpg" alt="" width="600px"
+          /></swiper-slide>
+          <swiper-slide class="photos__swiper-slide">
+            <img src="./images/photo4.jpg" alt="" width="600px"
+          /></swiper-slide>
+          <swiper-slide class="photos__swiper-slide">
+            <img src="./images/photo5.jpg" alt="" width="600px"
+          /></swiper-slide>
+        </swiper-container>
+      </section>
+
+      <section id="news" class="news">
+        <h1>Новости</h1>
+        <div class="news-container play-bold">
+          <div class="news-item">
+            <h3>Волонтеры творят добро в каждом уголке!</h3>
+            <p>
+              На этой неделе наши волонтеры вновь показали, как маленькие добрые
+              дела могут изменить жизнь многих людей. Команда активно помогала в
+              уборке городских парков, организовала сбор продуктов для
+              нуждающихся, и провела спортивные мероприятия для детей. Особенно
+              трогательными были визиты в дома престарелых и приюты, где наши
+              волонтеры подарили заботу тем, кто больше всего в ней нуждается.
+              <br />
+              <br />
+              Мы благодарим всех участников за их вклад в создание более доброго
+              и отзывчивого общества! Присоединяйтесь к нам и вы — вместе мы
+              можем сделать еще больше добрых дел!
+            </p>
+          </div>
+          <div class="news-item">
+            <h3>
+              Новогодняя акция: Глава района присоединился к новогодней акции
+              волонтеров!
+            </h3>
+            <p>
+              В этом году наша новогодняя акция по поддержке нуждающихся
+              получила особую поддержку — к волонтерам присоединился глава
+              района! Вместе с командой он принял участие в сборе подарков для
+              детских домов и пожилых людей, а также помог в организации
+              праздничных мероприятий.
+              <br />
+              <br />
+              «Это невероятно важно — вносить свой вклад в благополучие наших
+              жителей, особенно в преддверии Нового года. Я рад быть частью
+              этого доброго дела», — отметил глава района.
+              <br />
+              <br />
+              Присоединяйтесь и вы! Вместе с нашей командой и поддержкой властей
+              мы сделаем этот праздник по-настоящему теплым и светлым для всех!
+            </p>
+          </div>
+          <div class="news-item">
+            <h3>Совместная акция с ЮФУ: Волонтеры и студенты творят добро!</h3>
+            <p>
+              В рамках партнерства с Южным федеральным университетом (ЮФУ) наши
+              волонтеры вместе со студентами провели масштабную акцию по
+              поддержке нуждающихся. В течение нескольких недель мы совместными
+              усилиями организовали сбор продуктов, подарков и вещей для детских
+              домов и домов престарелых. Студенты ЮФУ активно участвовали в
+              мероприятиях, помогали с организацией праздников и волонтерскими
+              акциями.
+              <br />
+              <br />
+              Это сотрудничество показало, что объединение усилий может дать
+              невероятные результаты. Мы благодарим ЮФУ за участие и верим, что
+              впереди у нас еще много успешных проектов на благо общества!
+            </p>
+          </div>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    </main>
+
+    <footer id="contacts">
+      <section class="partners">
+        <h1>Наши партнеры</h1>
+        <div class="partners-container">
+          <div class="partner">
+            <img src="./images/partner1_logo.png" alt="Партнер 1" />
+          </div>
+          <div class="partner">
+            <img
+              src="./images/partner2_logo.png"
+              alt="Партнер 2"
+              style="width: 150px; height: auto"
+            />
+          </div>
+          <div class="partner">
+            <img
+              src="./images/partner3_logo.png"
+              alt="Партнер 3"
+              style="width: 300px; height: auto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <h1>Контакты</h1>
+        <p>
+          Если у вас есть вопросы, пишите нам на email:
+          <a href="mailto:volunteer@platform.com">volunteer@platform.com</a>
+        </p>
+        <p>Телефон: +7 (999) 777-77-77</p>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
